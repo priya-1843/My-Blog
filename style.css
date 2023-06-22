@@ -1,0 +1,111 @@
+@import url(//db.onlinewebfonts.com/c/113f8bcfa135c330a359a7fbe463c03a?family=Adam+Medium);
+
+@import url(//db.onlinewebfonts.com/c/ef5c0a066154464f7e8a73e0b86a98e5?family=LEMON+MILK+Light);
+
+
+.navbar {
+  background-color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+
+
+.hero-section {
+  background-image: url(backgroung-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+
+.welcome{
+  color: white;
+  padding-left: 25ch;
+  padding-top: 8ch;
+}
+
+.blog{
+  color: white;
+  padding-left: 28ch;
+  padding-top: 1ch;
+}
+
+.h2 {
+  color: #a31818;
+  font-family: txjz-n4, adobe-notdef;  
+  margin: 1ch;
+  padding-bottom: 0.5ch;
+  font-size: 45px;
+}
+
+
+.title {
+  padding-bottom: 0.5ch;
+  color: #000000;
+  font-family: "LEMON MILK Light"; src: url ('https://www.fontsaddict.com/fontface/lemonmilk.ttf');
+}
+
+
+.img {
+  border: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 13em;
+}
+
+.img:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.btn {
+  color: #f8f5f5;
+  padding: 1.1%;
+  text-align: right;
+  background-color: #1da4f1;
+}
+
+.btn :hover {
+  color: #0795e6;
+  text-decoration: underline;
+}
+
+
+.subheading {
+  padding-top: 2ch;
+  font-family: "Adam Medium"; src: url("//db.onlinewebfonts.com/t/113f8bcfa135c330a359a7fbe463c03a.eot");
+  color: #000000;
+}
+
+
+.news-section {
+  margin-top: 30px;
+  padding: 3px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.event-section {
+  margin-top: 30px;
+  padding: 3px 0;
+  background-color: white;
+}
+
+.job-section {
+  margin-top: 30px;
+  padding: 3px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  margin-top: 67px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 38px;
+  text-align: center;
+}
